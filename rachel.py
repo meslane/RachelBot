@@ -199,7 +199,7 @@ async def rps(ctx, usr_choice):
         await ctx.send("*You {0}*".format(result))
         
     except ValueError:
-        await ctx.send("*invalid input*")     
+        await ctx.send("*invalid input*")
 
 @client.command(brief = '\U0000262D')
 async def communism(ctx, s):
